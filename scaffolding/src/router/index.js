@@ -9,20 +9,21 @@ import About from '../views/About'
 //项目实践开始
 // import Register from '../views/Register'
 // import Login from '../views/Login'
-import Index from '../views/Index'
+
 import Details from '../views/Details'
+import Order from '../views/Order'
 //项目实践结束
 Vue.use(VueRouter)
 const routes = [
   {
-    path:'/details',
-    component:Details
+    path:'/order',
+    component:Order
   },
   {
-    path: '/',
-    name: 'Index',
-    component:Index
+    path:'/',
+    component:Details
   },
+  
   {
     path: '/about',
     name: 'About',
