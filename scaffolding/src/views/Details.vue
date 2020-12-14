@@ -69,7 +69,7 @@
     	infinite-scroll-immediate-check="true"
 		>
 			<h1 class="h1">卖家评论</h1>
-			<p>1</p>
+			<p>买的东西很新鲜</p>
 			<p>1</p>
 			<p>1</p>
 			<p>1</p>

@@ -2,7 +2,7 @@
   <div>
       <mt-search class="mint-search" cancel-text="取消" placeholder="搜索"></mt-search>
     <!-- 顶部选项卡开始 -->
-    <mt-navbar v-model="nav">
+    <mt-navbar v-model="nav" class="my_nav">
       <mt-tab-item id="1">全部</mt-tab-item>
       <mt-tab-item id="2">待付款</mt-tab-item>
       <mt-tab-item id="3">待使用</mt-tab-item>
@@ -40,6 +40,9 @@
 </div>
 </template>
 <style scoped>
+.my_nav{
+    font-size: 20px;
+}
 .mint-search{
     height: 50px;
    

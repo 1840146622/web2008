@@ -18,6 +18,10 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for `all_product_details`
 -- ----------------------------
+DROP DATABASE  IF EXISTS `cd`;
+
+CREATE DATABASE IF  NOT EXISTS  `cd` DEFAULT  CHARACTER SET 'utf8';
+USE `cd`;
 DROP TABLE IF EXISTS `all_product_details`;
 CREATE TABLE `all_product_details` (
   `pid` int(11) NOT NULL AUTO_INCREMENT,
